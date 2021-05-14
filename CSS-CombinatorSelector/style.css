@@ -1,0 +1,6 @@
+h1 + p {
+    background-color: red;
+}
+h1 ~ p {
+    font-style: italic;
+}
