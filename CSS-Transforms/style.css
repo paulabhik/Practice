@@ -1,0 +1,28 @@
+div {
+    background-color: blueviolet;
+    margin: 30px;
+    padding: 20px;
+    border: solid;
+    height: 130px;
+    width: 130px;
+
+}
+.one{
+   /* transform: scale(1.5, 1.5);*/
+   transform: scaleX(1.5);
+}
+.two{
+    transform: rotateX(60deg);
+    /* X axis, Y axis get rotated*/
+}
+.three{
+    transform: translate(50px, 50px);
+    /* X axis, Y axis get tranlated*/
+}
+.four{
+    transform: translate(50px, 50px) rotate(45deg);
+    /* first translated and then rotated*/
+}
+.five{
+    transform: skewX(45deg);
+}
